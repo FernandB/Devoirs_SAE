@@ -1,0 +1,38 @@
+SAE 
+20.09.17
+
+random : seed<=time since epoc(1970)-->time.time();
+#include <time.h>
+#include <cstdlib>
+
+voir Random.cpp.
+srand: seed. : srand(time(NULL));
+rand() % 10-->nombre entre 0 et 10.
+
+
+2. structures: 
+
+struct Monster
+{
+int initiative=0;
+int attack=0; 
+int defense=0;
+};
+
+un entier =4bytes(a verifier);
+
+Stack: memoire rapide,bloque automatiquement alloué.
+Heap :memoire plus lente utilisée manuellement,dynamiquement alloué en utilisant les pointers.
+
+exemple pointeur int* b=&a;
+
+pour recuperer la valeur a une adresse : std::Cout<<*b; on met l'étoile pour récupérer la valeur à l'adresse.
+
+pointer : 4bytes: economie.
+
+memory-leak: s'accumule, ralentit le programme, ou crash.-->new Int au debut et delete à la fin.
+
+penser a rajouter le delete a l'exam.
+pour acceder à une valeur de pointeur a: a->nom ou (a*).nom 
+
+Attention : pas returner pointeur d'une valeur créée dans la stack.

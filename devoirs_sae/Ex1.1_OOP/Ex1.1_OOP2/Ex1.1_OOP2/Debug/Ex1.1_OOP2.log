@@ -1,0 +1,4 @@
+﻿  Ex11OOP2.cpp
+c:\users\batti\documents\sae\devoirs sae\ex1.1_oop\ex1.1_oop2\ex1.1_oop2\ex11oop2.cpp(29): warning C4244: 'argument' : conversion de 'time_t' en 'unsigned int', perte possible de données
+  Ex1.1_OOP2.vcxproj -> C:\Users\batti\Documents\SAE\devoirs sae\Ex1.1_OOP\Ex1.1_OOP2\Debug\Ex1.1_OOP2.exe
+  Ex1.1_OOP2.vcxproj -> C:\Users\batti\Documents\SAE\devoirs sae\Ex1.1_OOP\Ex1.1_OOP2\Debug\Ex1.1_OOP2.pdb (Partial PDB)

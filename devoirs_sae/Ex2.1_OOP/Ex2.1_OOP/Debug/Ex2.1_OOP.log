@@ -1,0 +1,4 @@
+﻿  Ex21OOP.cpp
+c:\users\batti\documents\sae\devoirs sae\ex1.2_oop\ex2.1_oop\ex2.1_oop\ex21oop.cpp(17): warning C4838: la conversion de 'std::numeric_limits<int>::_Ty' en 'double' requiert une conversion restrictive
+  Ex2.1_OOP.vcxproj -> C:\Users\batti\Documents\SAE\devoirs sae\Ex1.2_OOP\Ex2.1_OOP\Debug\Ex2.1_OOP.exe
+  Ex2.1_OOP.vcxproj -> C:\Users\batti\Documents\SAE\devoirs sae\Ex1.2_OOP\Ex2.1_OOP\Debug\Ex2.1_OOP.pdb (Partial PDB)

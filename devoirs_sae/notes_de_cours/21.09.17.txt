@@ -1,0 +1,49 @@
+enum class: permet d'utiliser 2 fois le mm nom de variable dans deux enum différentes.
+
+
+fichier de header (.h ou .hpp): explique ce qu'il y a ds le fichier cpp.
+
+(avoir un fichier credit.txt pr les droits d'auteur.)
+
+compiling = cpp to o(objet) ->code
++
+linking = o to exe.->executable
+
+extern= public --> ne pas utiliser. Variable globale uniquement si c une constante avec const a la place.
+
+il est mieux d'utiliser define pour les constantes.
+
+string (ou tableau de char se finit par \0)-->longueur determinable.
+
+Le std::vector: accede rapidement aux elements
+#include <vector>
+std::vector<int> v{2,3,4,1,9,8,7,6};
+v.size()-->Fonctionne, renvoi 8.
+v[i] ou v.at(i) ->renvoi la valeur a l'index i.
+pareil ac un pointeur:
+for(std::vector<int>:iterator iter = v.begin(); iter!=v.end();iter++)
+{
+	std::cout<<*iter<< "\n";
+}
+
+ou ecrire auto a la place de std::vector<int>:iterator.
+
+tableau et vector : 1 operation pour accéder a un élément.
+et une list: accede plus lentement mais est très dynamique.
+list: #include <list>.
+avec list: utiliser un iterateur.(auto iter=d.begin; ...)
+LINKEDLIST: LES CASES POINTENT SUR LA SUIVANTE, POUR AJOUTER OU SUPPRIMER C PLUS SIMPLE (on reprend pas tout pour ajouter a la fin).
+Mais demande plus d'operation.
+
+double: approximatif
+float: moins approximatif
+
+--> faire une variable float ou double de précision, par ex: 0.01; et on check que a+b<resultat+precision et que a+b>resultat-precision
+
+ou plus facile , methode du epsilon valeur absolue de a-b < epsilon .
+
+i++--> on augmente le pointeur de 1.
+
+pas de new et pas de pointeur= créé sur la stack.
+
+reference:permet de changer la valeur a une adresse dans la boucle par exemple ou dans une fonction.(A reviser)

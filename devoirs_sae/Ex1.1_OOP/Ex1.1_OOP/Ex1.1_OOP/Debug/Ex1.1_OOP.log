@@ -1,0 +1,6 @@
+﻿  Ex11OOP.cpp
+c:\users\batti\documents\sae\devoirs sae\ex1.1_oop\ex1.1_oop\ex1.1_oop\ex11oop.cpp(28): warning C4244: 'argument' : conversion de 'time_t' en 'unsigned int', perte possible de données
+c:\users\batti\documents\sae\devoirs sae\ex1.1_oop\ex1.1_oop\ex1.1_oop\ex11oop.cpp(32): warning C4244: '+=' : conversion de 'double' en 'int', perte possible de données
+c:\users\batti\documents\sae\devoirs sae\ex1.1_oop\ex1.1_oop\ex1.1_oop\ex11oop.cpp(43): warning C4244: '+=' : conversion de 'double' en 'int', perte possible de données
+  Ex1.1_OOP.vcxproj -> C:\Users\batti\Documents\SAE\devoirs sae\Ex1.1_OOP\Ex1.1_OOP\Debug\Ex1.1_OOP.exe
+  Ex1.1_OOP.vcxproj -> C:\Users\batti\Documents\SAE\devoirs sae\Ex1.1_OOP\Ex1.1_OOP\Debug\Ex1.1_OOP.pdb (Partial PDB)
